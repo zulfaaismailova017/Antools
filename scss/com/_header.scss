@@ -1,0 +1,23 @@
+.header{
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    &__link{
+        color: #FFFFFF8C;
+    }
+    &__btn{
+        color: #FDF5FF;
+        background-color: #FF6E30;
+        border: 0;
+        border-radius: 8px;
+        padding: 12px 28px;
+    }
+}

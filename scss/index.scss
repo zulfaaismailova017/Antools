@@ -1,0 +1,20 @@
+@use "./com/_header.scss";
+@use "./com/most";
+@use "./com/hero";
+@use "./com/subscribe";
+@use "./com/footer";
+@use "./com/contributor";
+@use "./com/newcomer";
+
+body {
+    margin: 0;
+    background-color: #283036;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
